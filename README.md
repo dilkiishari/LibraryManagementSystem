@@ -1,6 +1,6 @@
-﻿# 📚 Library Management System
+﻿# Library Management System
 
-## 📌 Project Overview
+## Project Overview
 
 The Library Management System is a web-based application developed using a **Spring Boot Microservices Architecture**.
 
@@ -12,7 +12,7 @@ The complete system is containerized using Docker and Docker Compose.
 
 ---
 
-# 🎯 Main Objective
+# Main Objective
 
 The main objective of this project is to develop a simple, reliable, and organized system for managing library activities.
 
@@ -33,7 +33,7 @@ The system provides the following main functions:
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 The project follows a Microservices Architecture.
 
@@ -79,7 +79,7 @@ The project follows a Microservices Architecture.
 
 ---
 
-# 🧩 Microservices
+# Microservices
 
 ## 1. API Gateway
 
@@ -137,7 +137,7 @@ http://localhost:8085/actuator/health
 
 ---
 
-# 2. 👤 User Service
+# 2. User Service
 
 The User Service manages user-related operations.
 
@@ -174,7 +174,7 @@ http://localhost:8081/v3/api-docs
 
 ---
 
-# 3. 📖 Book Service
+# 3. Book Service
 
 The Book Service manages library books.
 
@@ -213,7 +213,7 @@ http://localhost:8080/v3/api-docs
 
 ---
 
-# 4. 📚 Borrow Service
+# 4. Borrow Service
 
 The Borrow Service manages borrowing and returning books.
 
@@ -251,7 +251,7 @@ http://localhost:8083/v3/api-docs
 
 ---
 
-# 5. 🔔 Notification Service
+# 5. Notification Service
 
 The Notification Service manages user notifications.
 
@@ -287,7 +287,7 @@ http://localhost:8084/v3/api-docs
 
 ---
 
-# 🔌 Service Port Summary
+# Service Port Summary
 
 | Service              | Port | Base URL                                       |
 | -------------------- | ---: | ---------------------------------------------- |
@@ -299,7 +299,7 @@ http://localhost:8084/v3/api-docs
 
 ---
 
-# 📖 Swagger Documentation
+# Swagger Documentation
 
 Swagger UI can be used to view and test the REST APIs.
 
@@ -329,7 +329,7 @@ http://localhost:8084/swagger-ui/index.html
 
 ---
 
-# 📄 OpenAPI Documentation
+# OpenAPI Documentation
 
 The OpenAPI JSON documentation can be accessed using:
 
@@ -349,7 +349,7 @@ http://localhost:8084/v3/api-docs
 
 ---
 
-# 🗄️ MongoDB
+# MongoDB
 
 Each major service uses a separate MongoDB database.
 
@@ -366,7 +366,7 @@ This provides better separation between the microservices.
 
 ---
 
-# 🔗 MongoDB Connection Information
+# MongoDB Connection Information
 
 ## Borrow MongoDB
 
@@ -394,7 +394,7 @@ mongodb://localhost:27022
 
 ---
 
-# 🐳 Docker Containers
+# Docker Containers
 
 The complete system runs using Docker containers.
 
@@ -415,7 +415,7 @@ Notification MongoDB
 
 ---
 
-# 🚀 Running the Project
+# Running the Project
 
 ## Step 1 - Start Docker Desktop
 
@@ -463,7 +463,7 @@ Up
 
 ---
 
-# 🛑 Stop the Project
+# Stop the Project
 
 To stop all containers:
 
@@ -473,7 +473,7 @@ docker compose down
 
 ---
 
-# 🔄 Restart the Project
+# Restart the Project
 
 ```bash
 docker compose restart
@@ -481,7 +481,7 @@ docker compose restart
 
 ---
 
-# 📋 View Docker Logs
+# View Docker Logs
 
 ## API Gateway
 
@@ -515,7 +515,7 @@ docker compose logs notification-service --tail 50
 
 ---
 
-# 📚 Book Borrowing Process
+# Book Borrowing Process
 
 The borrowing process works as follows:
 
@@ -537,7 +537,7 @@ Book successfully borrowed
 
 ---
 
-# 🔄 Book Returning Process
+# Book Returning Process
 
 The return process works as follows:
 
@@ -557,7 +557,7 @@ Book becomes available
 
 ---
 
-# 🔔 Notification Process
+# Notification Process
 
 ```text
 Notification Request
@@ -573,7 +573,7 @@ Retrieve Notification
 
 ---
 
-# 🧪 API Testing
+# API Testing
 
 The APIs can be tested using:
 
@@ -615,7 +615,7 @@ View Notifications
 
 ---
 
-# 🌐 Frontend
+# Frontend
 
 The frontend is developed using:
 
@@ -641,7 +641,7 @@ http://localhost:8085
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 ## Programming Language
 
@@ -691,7 +691,7 @@ http://localhost:8085
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 LibraryManagementSystem/
@@ -733,7 +733,7 @@ LibraryManagementSystem/
 
 ---
 
-# 📊 Current Project Status
+# Current Project Status
 
 | Component                 | Status      |
 | ------------------------- | ----------- |
@@ -756,7 +756,7 @@ LibraryManagementSystem/
 
 ---
 
-# 🔐 Security
+# Security
 
 The project includes user authentication and API Gateway-based routing.
 
@@ -764,7 +764,7 @@ Additional security improvements can be implemented in future development.
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 The following features can be added in future development:
 
@@ -778,7 +778,7 @@ The following features can be added in future development:
 
 ---
 
-# 👨‍💻 Project Information
+# Project Information
 
 **Project Name:** Library Management System
 
@@ -802,6 +802,6 @@ The following features can be added in future development:
 
 ---
 
-# 📄 License
+# License
 
 This project was developed for educational purposes.
